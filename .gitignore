@@ -1,0 +1,8 @@
+# Project exclude paths
+/venv/
+
+# Jupyter Notebook Checkpoints
+**/.ipynb_checkpoints
+
+# IDE folders
+savedata

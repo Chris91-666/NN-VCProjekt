@@ -1,0 +1,37 @@
+
+TODO:
+
+
+Jeder Task:
+    - EValuation Funktionen funktionieren noch nicht, vor Allem auc_roc Score.
+    Glaube der Dice Score darf auch nicht hoeher sein als accuracy.
+
+    - Finetuning der Parameter learning_rate, batch_size.
+
+    - Optional: Allgemeine Optimierungen im Code und bessere Dokumentation
+
+
+
+Task_1: (Model: FCN_8s)
+    - Statistiken waerend dem Training muessen noch erstellt werden, steht aber auch bei Evaluation.
+    Statistiken sollen fuer jede Epoche ausgegeben werden, also muessen die Parameter nach jeder Epoche in einer eigenen Datei gespeichert werden.
+
+
+Task_2: (Model: R2U_Net)
+    - Anpassung der Label von 34 auf die 19 bekanntesten Klassen.
+    Ist bekannt welche das sind (in irgend einem Paper). Gibt sogar ein Script welches das Trainset nur mit 19 Parametern baut.
+    Dann muss natuerlich im Model auch die Anzahl Label im Konstruktor auf 19 gesetzt werden.
+
+    - Abaendern des Codes unter super im Model, damit es dem im Repo nicht so aehnelt.
+    Forward und die beiden Funktionen im Model hab ich selbst geschrieben (die mit Dokumentation sind von mir, also param und return)
+    Ist nicht so wichtig, wir duerfen ja Code von externen Quellen verwenden, wenn wir darauf referenzieren.
+
+
+Task_3: (Model: DEEPLABV3_RESNET101)
+    - Anpassung der Label von 34 auf die 19 bekanntesten Klassen.
+    Ist bekannt welche das sind (in irgend einem Paper). Gibt sogar ein Script welches das Trainset nur mit 19 Parametern baut.
+    Dann muss natuerlich im Model auch die Anzahl Label im Konstruktor auf 19 gesetzt werden.
+
+    - Model muss noch geschrieben werden.
+    Hab mir gedacht das DEEPLABV3-RESNET101 oder das simplere DEEPLABV3-RESNET50 waeren cool.
+    Aber iwas simpleres tut es auch.
