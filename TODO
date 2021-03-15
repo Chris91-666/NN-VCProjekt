@@ -26,6 +26,8 @@ Task_2: (Model: R2U_Net)
     Forward und die beiden Funktionen im Model hab ich selbst geschrieben (die mit Dokumentation sind von mir, also param und return)
     Ist nicht so wichtig, wir duerfen ja Code von externen Quellen verwenden, wenn wir darauf referenzieren.
 
+    - Testset muss gefixt werden, Label haben nur eine Farbe, da die Ihre eigene Evaluationsfunktion haben, die man iwie ausfuehren muss.
+
 
 Task_3: (Model: DEEPLABV3_RESNET101)
     - Anpassung der Label von 34 auf die 19 bekanntesten Klassen.
@@ -35,3 +37,5 @@ Task_3: (Model: DEEPLABV3_RESNET101)
     - Model muss noch geschrieben werden.
     Hab mir gedacht das DEEPLABV3-RESNET101 oder das simplere DEEPLABV3-RESNET50 waeren cool.
     Aber iwas simpleres tut es auch.
+
+    - Testset muss gefixt werden, Label haben nur eine Farbe, da die Ihre eigene Evaluationsfunktion haben, die man iwie ausfuehren muss.
