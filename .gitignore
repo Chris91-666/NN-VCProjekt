@@ -1,6 +1,0 @@
-# Project exclude paths
-/venv/
-Task 1/VOCtrainval_11-May-2012.tar
-Task 1/VOCdevkit
-Task 1/Paper/data
-Cityscapes_dataset
